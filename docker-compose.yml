@@ -21,14 +21,14 @@ services:
     volumes:
       - ./src:/home/node/app/src
 
-  # redis:
-  #   image: redis:latest
-  #   container_name: redis
-  #   hostname: redis
-  #   domainname: services.local
-  #   restart: always
-  #   ports:
-  #     - '6379:6379'
+  redis:
+    image: redis:latest
+    container_name: redis
+    hostname: redis
+    domainname: services.local
+    restart: always
+    ports:
+      - '6379:6379'
 
   mongo_db:
     image: mongo:latest
