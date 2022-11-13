@@ -11,9 +11,24 @@
     "dev": "docker-compose up --build backend"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "http-status": "^1.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pm2": "^5.2.2",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "type": "module"
 }
