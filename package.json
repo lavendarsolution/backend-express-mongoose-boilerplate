@@ -1,0 +1,19 @@
+{
+  "name": "backend-express-mongoose-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/angelsoft-team/backend-express-mongoose-boilerplate.git",
+  "author": "Oscar Yang <oscaryang1220@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon --config ./nodemon.json",
+    "dev": "docker-compose up --build backend"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
